@@ -11,18 +11,18 @@
     padding: 15px;
 }
 .header h2{
-    display: inline-block;
+    display: inline;
     color: white;
 }
-.header ul{
-    display: inline-block;
+.header .header-content{
     margin-left: 65%;
-}
-.header li{
-    display: inline-block;
-    color: gray;
     cursor: pointer;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .header li:hover{
     color: white;
 }
