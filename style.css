@@ -3,29 +3,38 @@
     padding: 0;
 }
 /* Header */
-.header{ 
+.header { 
     background-color: black;
-}
-.header nav{
-    display: inline-block;
-    padding: 15px;
-}
-.header h2{
-    display: inline;
-    color: white;
-}
-.header .header-content{
-    margin-left: 65%;
-    cursor: pointer;
-    color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 100%;
 }
 
-.header li:hover{
+.header nav {
+    display: flex;                /* flexbox for layout */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header h2 {
+    color: white;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;                     /* spacing between items */
+}
+
+.nav-links a {
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
     color: white;
 }
+
 
 /* Searchbar */
 .searchbar{
